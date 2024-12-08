@@ -7,10 +7,9 @@ binding = "NEWSNOW_DB"
 database_name = "db_news"
 database_id = "7c1bb752-27c2-45ce-8bab-8b25d99ce31d"
 
-# 环境变量配置
-[env.production]  # 生产环境的配置
-  G_CLIENT_ID = "Ov23liDGVALQXFsDqs4w"
-  G_CLIENT_SECRET = "c431657a3775faca3d452f92de27cadef66d9731"
-  JWT_SECRET = "c431657a3775faca3d452f92de27cadef66d9731"
-  INIT_TABLE = "true"
-  ENABLE_CACHE = "true"
+[vars]
+G_CLIENT_ID = "Ov23liDGVALQXFsDqs4w"
+G_CLIENT_SECRET = "c431657a3775faca3d452f92de27cadef66d9731"
+JWT_SECRET = "c431657a3775faca3d452f92de27cadef66d9731"
+INIT_TABLE = "true"
+ENABLE_CACHE = "true"
